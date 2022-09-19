@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+      /* Global Styles */
+
+      * {
+        font-family: "Montserrat", sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        padding: 40px 10%;
+        background: #f5f5f5;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      /* Container Styles */
+      .container {
+        display: flex;
+      }
+      .main-wrapper {
+        flex: 2;
+      }
+      .side-bar {
+        background: #faf9f9;
+        flex: 0.5;
+        padding: 40px;
+        /* background-color: white; */
+      }
+
+      .side-bar ul {
+        padding: 0 40px;
+        list-style: none;
+      }
+
+      .side-bar {
+        background: rgb(230, 230, 231);
+      }
+
+      @media only screen and (max-width: 900px) {
+        .container {
+          flex-direction: column;
+        }
+        .side-bar {
+          background: #114;
+          color: white !important;
+        }
+        .side-bar a {
+          color: white !important;
+        }
+      }
+
+      /* Navigation Menu Styles */
+
+      nav.nav-menu {
+        width: 100%;
+        background-color: #114;
+        padding: 10px;
+      }
+
+      nav.nav-menu ul {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        list-style: none;
+        font-size: clamp(0.8rem, 1.2vw, 2rem);
+      }
+
+      .nav-menu .nav-item {
+        padding: 15px;
+        transition: background-color 500ms ease-in-out;
+      }
+
+      .nav-menu .nav-item:hover {
+        cursor: pointer;
+        background-color: #f5f5f54d;
+      }
+
+      .nav-menu .nav-item a {
+        text-decoration: none;
+        color: white;
+      }
+
+      /* Main Content Wrapper Styles */
+      .main-wrapper {
+        background: white;
+        padding: 40px;
+      }
+
+      section {
+        margin-bottom: 60px;
+      }
+
+      section.head,
+      section.youtube-embed {
+        text-align: center;
+      }
+
+      .button-link {
+        display: block;
+        margin: 20px 0 0 0;
+        padding: 10px 40px;
+        width: fit-content;
+        background: #114;
+        border-radius: 5px;
+        text-decoration: none;
+        color: white;
+        transition: 0.3s transform ease-in-out;
+      }
+
+      .button-link:hover {
+        transform: scale(1.05);
+      }
+
+      h1 {
+        font-size: 34px;
+      }
+
+      h2 {
+        margin-bottom: 20px;
+      }
+
+      p {
+        text-align: justify;
+        margin-bottom: 10px;
+        line-height: 1.5rem;
+      }
+
+      img {
+        max-width: 100%;
+      }
+
+      .two-col {
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+      }
+
+      .two-col div {
+        width: 50%;
+      }
+
+      @media only screen and (max-width: 900px) {
+        body {
+          padding: 0;
+        }
+
+        .two-col {
+          flex-direction: column;
+        }
+
+        .two-col div {
+          width: 100%;
+        }
+
+        .main-wrapper {
+          padding: 5%;
+        }
+      }
+    </style>
+    <title>
+      Ten Signs You Need Counseling | Quest Counselor
+    </title>
+  </head>
+
+  <body>
+    <!-- Navigation Menu -->
+    <nav class="nav-menu">
+      <ul>
+        <li class="nav-item"><a href="https://questcounselor.com/">Main</a></li>
+        <li class="nav-item">
+          <a href="https://goo.gl/maps/quVy9YKwgQW4vCM88">Maps</a>
+        </li>
+        <li class="nav-item"><a href="./media.html">Media</a></li>
+        <li class="nav-item">
+          <a
+            href="https://sites.google.com/view/counselor-moorpark-ca-quest-co/Counselor-Moorpark-CA?authuser=0"
+            >Quest Counseling</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="https://quest-counseling-group.business.site/"
+            >Counselor Moorpark</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Main Content Container -->
+    <div class="container">
+      <!-- Main Content Wrapper -->
+      <div class="main-wrapper">
+        <section class="head">
+          <h1>Ten Signs You Need Counseling</h1>
+        </section>
+
+        <section>
+          <iframe width="100%" height="500" src="https://www.youtube.com/embed/zTeqTvbGK9M" title="Counselor Moorpark -  Ten signs you need counseling" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <br>
+          <p>
+            Mental health is just as important as physical health, but sometimes it can be difficult to tell when we need help. Here are ten signs that you may need counseling. If you experience any of these symptoms, don’t hesitate to seek help. Counseling can make a huge difference in your life.
+          </p>
+          <a
+            class="button-link"
+            href="https://questcounselor.com/what-are-the-benefits-of-setting-boundaries-for-counselors/"
+            >Read Post</a
+          >
+        </section>
+
+        <section>
+          <h2 style="text-align: center;">
+            You're Experiencing Significant Stress Or Anxiety.
+          </h2>
+          <p>
+            If you struggle to cope with stress or anxiety, counseling can help you learn healthy coping mechanisms and get relief. Counseling can provide a safe space to process your feelings and work through whatever is causing your stress or anxiety. If you’re struggling to manage stress or anxiety on your own, don’t hesitate to reach out for help. Counseling can make a big difference in how you’re feeling.
+          </p>
+        </section>
+        
+        <section>
+          <h2 style="text-align: center;">
+            You're Having Difficulty Controlling Your Emotions.
+          </h2>
+          <hr>
+          <br>
+          <div class="two-col">
+            <div>
+              <p>
+                It’s not always easy to control our emotions. Sometimes it feels downright impossible. We may feel like we’re being influenced by our feelings rather than the other way around. If this is happening to you, it’s time for some counseling.
+              </p>
+              <p>
+                Counseling can help you learn how to control your emotions and understand why they affect you the way they do. There are often underlying issues causing us to react strongly to certain situations. Counseling can help you identify these issues and work through them to start feeling more in control of your life and emotions. If you’re having difficulty controlling your emotions, please seek professional help. It could make all the difference in the world for you!
+              </p>
+            </div>
+            <div>
+              <img style="box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px; border-radius: 35px;" src="https://lh3.googleusercontent.com/geougc/AF1QipNjOR1g13bENOxf_5AQGH-gUoOMc7SGcJaR5u6f=h400-no" alt="Counselor Moorpark, CA">
+            </div>
+          </div>
+        </section>
+        
+        <section>
+          <h2 style="text-align: center;">
+            You're Engaging In Self-Destructive Behaviors.
+          </h2>
+          <p>
+            Most people know that engaging in self-destructive behaviors is harmful, but they may not realize how much damage these behaviors can do. Substance abuse, eating disorders, and self-harm are just a few types of self-destructive behavior. People engage in these behaviors for various reasons, including to cope with stress or pain, to deal with difficult emotions, or to punish themselves.
+          </p>
+          <p>
+            Whatever someone engages in self-destructive behavior always does more harm than good. Substance abuse can lead to addiction and health problems; eating disorders can cause malnutrition and even death, and self-harm can result in physical and psychological injuries.
+          </p>
+          <p>
+            If you’re engaging in any type of self-destructive behavior, please seek counseling. Counseling can help you understand why you’re engaging in these behaviors and how to stop them. It can also help you develop healthier coping mechanisms so that you don’t have to resort to self-destructive behavior anymore.
+          </p>
+        </section>
+
+        <section>
+          <h2 style="text-align:center;">
+            You're Experiencing Significant Life Changes.
+          </h2>
+          <hr>
+          <br>
+          <div class="two-col">
+            <div>
+              <p>
+                If you’re experiencing significant life changes, you may need counseling. Counseling can provide emotional support and guidance through difficult times. It can also help you to understand better and manage your feelings. If you’re feeling overwhelmed or out of control, counseling may be the right choice.
+              </p>
+              <p>
+                Some significant life changes that may warrant counseling include:
+              </p>
+              <p>
+                – experiencing a death or loss
+              </p>
+              <p>
+                – going through a divorce or break-up
+              </p>
+              <p>
+                – starting a new job or career
+              </p>
+              <p>
+                – having a baby
+              </p>
+              <p>
+                – moving to a new city or town
+              </p>
+              <p>
+                – dealing with chronic illness or disability.
+              </p>
+            </div>
+            <div>
+              <img style="height: 410px; box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px; border-radius: 35px;" src="https://questcounselor.com/wp-content/uploads/2022/02/young-couple-psychologist-discussing-relationship-problems-with-their-therapist-1-1024x683.jpg" alt="Counselor Moorpark, CA">
+            </div>
+          </div>
+          <p>
+            Counseling can help you to cope with these changes in a healthy way. If you’re struggling to adjust to a significant life change, talking to a counselor can make a big difference.
+          </p>
+        </section>
+
+        <section>
+          <h2 style="text-align:center;">
+            Counseling: You're Having Difficulty Sleeping.
+          </h2>
+          <p>
+            Millions of people worldwide have insomnia and other sleep-related problems. While many prescription and over-the-counter medications are available to help people get a good night’s sleep, sometimes these medications are not enough or have unpleasant side effects. In these cases, some people may find that counseling is the best solution. Counseling can help people address the underlying causes of their sleep problems and provide them with techniques for getting a good night’s sleep.
+          </p>
+          <p>
+            If you’re having difficulty sleeping, and you’ve tried medications, but they haven’t worked, or you don’t like the side effects of the drugs, counseling may be a good option.
+          </p>
+        </section>
+
+
+        <section> 
+          <a class="button-link" href="https://questcounselor.com/">Visit Us</a>
+        </section>
+
+        <section>
+          <h2 style="text-align: center;">
+            Counseling: You're Feeling Disconnected From Others.
+          </h2>
+          <hr>
+          <br>
+          <div class="two-col">
+            <div>
+              <img style="height: 400px; box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px; border-radius: 35px;" src="https://lh3.googleusercontent.com/geougc/AF1QipP9K7Xi6byspLE_L50Wd0-8pbDWGlsA9Lrv0VE2=h400-no" alt="Counselor Moorpark, CA">
+            </div>
+            <div>
+              <p>
+                It may be a sign that you need counseling if you’re feeling isolated and alone, even in a room full of people. A counselor can help you develop healthy relationships and support during isolation. If you’re feeling disconnected from others, counseling can help you reconnect.
+              </p>
+              <p>
+                When we feel isolated, it’s often because we’re not meeting our needs. We may need more social interaction, meaningful connections, or support than we’re currently getting. Counseling can help us identify these needs and develop strategies to meet them. We can also learn how to build healthier relationships and connect with others in a way that feels satisfying and fulfilling.
+              </p>
+              <p>
+                If you feel disconnected from others, don’t hesitate to seek help. Counseling can provide the support and guidance you need to feel connected again. Call today to schedule an appointment.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h2 style="text-align: center;">
+            You're Having Intrusive Thoughts.
+          </h2>
+          <p>
+            If you’re plagued by unwanted thoughts or disturbing or upsetting images, it may be a sign of an underlying mental health issue. Counseling can help you learn to cope with intrusive thoughts.
+          </p>
+          <p>
+            Intrusive thoughts are unwelcome, involuntary thoughts, images, or urges that cause distress or anxiety. Many people have occasional intrusive thoughts, but for some people, these thoughts can be persistent and overwhelming. Intrusive thoughts are a symptom of several mental health conditions, including:
+          </p>
+          <p>
+            Anxiety disorders
+          </p>
+          <p>
+            Depression
+          </p>
+          <p>
+            Obsessive-compulsive disorder (OCD)
+          </p>
+          <p>
+            Post-traumatic stress disorder (PTSD)
+          </p>
+          <p>
+            You must talk to a mental health professional if you’re having intrusive thoughts regularly. Counseling and therapy can help you learn to manage your symptoms and reduce your distress.
+          </p>
+        </section>
+
+        <section>
+          <h2 style="text-align: center;">
+            You're Avoiding Certain Situations Or Places.
+          </h2>
+          <hr>
+          <br>
+          <div class="two-col">
+            <div style="display: flex; flex-direction:column;
+            justify-content:center;">
+              <p>
+                If you find yourself avoiding certain people, places, or activities because they make you feel anxious or uncomfortable, it may be a sign that you need counseling. This is especially true if the things you’re avoiding are essential to you or if your avoidance is starting to interfere with your quality of life. Counseling can help you identify and manage the underlying causes of your avoidance behavior to begin living a more full and satisfying life.
+              </p>
+            </div>
+            <div>
+              <img style="box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px; border-radius: 35px;" src="https://questcounselor.com/wp-content/uploads/2022/02/Ministerial-Counseling-1024x576.jpg" alt="Counselor Moorpark, CA">
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h2 style="text-align: center;">
+            You're Feeling Hopeless Or Helpless.
+          </h2>
+          <hr>
+          <br>
+          <p>
+            If you’re feeling overwhelmed and like you can’t cope with everyday life, it might be time to seek counseling. Many signs indicate when someone needs professional help, and though each person experiences these signs differently, there are some common ones to look out for.
+          </p>
+          <p>
+            One of the most obvious signs is when someone avoids certain situations or places. This could be anything from avoiding social gatherings to steering clear of a particular room in your house. If you find yourself doing this, it’s time to seek help.
+          </p>
+          <p>
+            Another sign is feeling hopeless or helpless. When you think there’s no way out and things will never improve, it’s essential to get professional support. If left untreated, this thinking can lead to depression and other mental health issues.
+          </p>
+          <p>
+            If you’re experiencing any of these signs, don’t hesitate to reach out for help. The sooner you get counseling, the sooner you’ll start feeling like yourself again.
+          </p>
+        </section>
+
+        <section>
+          <h2 style="text-align: center;">
+            You're Not Enjoying Activities That Used To Bring You Joy.
+          </h2>
+          <hr>
+          <br>
+          <p>
+            It’s perfectly normal to go through periods where you’re not feeling particularly inspired or creative. Maybe you’ve been working too hard, and your brain is fried, or perhaps you’re just having a bad day. But if you’re finding that you’re not enjoying activities that used to bring you joy, then it might be time for some counseling.
+          </p>
+          <p>
+            There could be any number of reasons why you’ve lost your passion for life. It could be due to stress, anxiety, depression, or other mental health issues. Or it could simply be that you’ve lost sight of your goals and don’t know what brings you fulfillment anymore. In either case, talking to a counselor can help get you back on track. They can help you identify the root cause of your unhappiness and give you the tools needed to start enjoying life again.
+          </p>
+        </section>
+
+        <section>
+          <h2 style="text-align: center;">
+            In Summary
+          </h2>
+          <hr>
+          <br>
+          <p>
+            If you’re experiencing any signs listed above, it’s time to seek help. Quest Counseling in Moorpark, CA, can provide the professional support you need to get through this difficult time. They offer a variety of counseling services that are tailored to meet your individual needs. So don’t hesitate to reach out and get the help you deserve.
+          </p>
+        </section>
+
+       
+        <section>  
+          <a
+            class="button-link"
+            href="https://google.com/maps/?cid=14363683063946813245"
+            >Find Us Here!</a
+          >
+        </section>
+
+        <section>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3296.5462823627045!2d-118.88093808477876!3d34.28562038054304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc7560da504d81f3d!2sQuest%20Counseling%20Group!5e0!3m2!1sen!2sph!4v1650337281580!5m2!1sen!2sph"
+            width="100%"
+            height="350"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            >Counselor%20Moorpark,%20CA</iframe
+          >
+        </section>
+
+        <section>
+          <iframe
+            src="https://www.tripadvisor.com/Attractions-g32741-Activities-Moorpark_California.html"
+            style="border: 0px #ffffff none"
+            name="myiFrame"
+            scrolling="no"
+            frameborder="1"
+            marginheight="0px"
+            marginwidth="0px"
+            height="400px"
+            width="100%"
+            allowfullscreen
+          ></iframe>
+        </section>
+
+        <section>
+          <iframe
+            src="https://abc7.com/place/moorpark/"
+            style="border: 0px #ffffff none"
+            name="myiFrame"
+            scrolling="no"
+            frameborder="1"
+            marginheight="0px"
+            marginwidth="0px"
+            height="400px"
+            width="100%"
+            allowfullscreen
+          ></iframe>
+        </section>
+
+        <section>
+          <iframe
+            src="https://questcounselor.com/"
+            style="border: 0px #ffffff none"
+            name=""
+            scrolling="yes"
+            frameborder="1"
+            marginheight="0px"
+            marginwidth="0px"
+            height="400"
+            width="100%"
+            allowfullscreen
+          ></iframe>
+        </section>
+
+        <section>
+          <iframe
+            src="./media.html"
+            width="100%"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </section>
+
+        <section>
+          <iframe
+            src="https://www.pearltrees.com/questcounselor?embed=2&d=202203241511"
+            width="100%"
+            height="500"
+            style="border: 0px"
+            allowtransparency="true"
+          ></iframe
+          ><span
+            style="
+              display: block;
+              padding-top: 2px;
+              color: #818181;
+              font-size: 13px;
+            "
+            ><a
+              href="https://www.pearltrees.com/questcounselor"
+              style="color: #818181; font-size: 13px"
+              target="_blank"
+              >Questcounselor</a
+            ></span
+          >
+        </section>
+
+        <section>
+          <iframe
+            src="./index.html"
+            width="100%"
+            height="500"
+            style="border: 0px"
+            allowtransparency="true"
+          ></iframe
+          ><span
+            style="
+              display: block;
+              padding-top: 2px;
+              color: #818181;
+              font-size: 13px;
+            "
+            ><a
+              href="https://www.pearltrees.com/questcounselor"
+              style="color: #818181; font-size: 13px"
+              target="_blank"
+              >Questcounselor</a
+            ></span
+          >
+        </section>
+
+        <a
+          target="_bLank"
+          href="https://rank-fortress-digital-agency.github.io/questcounselor-06-22/"
+          >https://rank-fortress-digital-agency.github.io/questcounselor-06-22/</a
+        ><br />
+        <a
+          target="_bLank"
+          href="http://questcounselor-06-22.s3-website-us-west-2.amazonaws.com"
+          >http://questcounselor-06-22.s3-website-us-west-2.amazonaws.com</a
+        ><br />
+        <a target="_bLank" href="https://stirring-palmier-ad37ba.netlify.app/"
+          >https://stirring-palmier-ad37ba.netlify.app/</a
+        ><br />
+        <a
+          target="_bLank"
+          href="https://sites.google.com/view/counselor-moorpark-ca-quest-co/Counselor-Moorpark-CA?authuser=0"
+          >https://sites.google.com/view/counselor-moorpark-ca-quest-co/Counselor-Moorpark-CA?authuser=0</a
+        >
+      </div>
+
+      <!-- Sidebar -->
+      <div class="side-bar">
+        <section>
+          <h2>Useful Links</h2>
+          <ul>
+            <li>
+              <a
+                href="https://www.facebook.com/Quest-Counseling-Group-110773298240105/"
+                >Facebook</a
+              >
+            </li>
+            <li>
+              <a href="https://maps.google.com/maps?cid=14363683063946813245"
+                >Google Page</a
+              >
+            </li>
+            <li>
+              <a href="https://www.youtube.com/channel/UCz1-0of3G2Ouf1OseztjrHA"
+                >Youtube</a
+              >
+            </li>
+            <li>
+              <a href="http://www.pearltrees.com/questcounselor">Pearltrees</a>
+            </li>
+            <li>
+              <a
+                href="https://calendar.google.com/calendar/u/0/embed?src=bl68d8lbfh7ovm5iaoeaf20744@group.calendar.google.com&ctz=Asia/Manila&fbclid=IwAR1MmKptDSH7DMF61CpY07iKrZ8kvwnX11eLH_3AzPIramJrUACfzyw47No"
+                >Calendar</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://sites.google.com/view/counselor-moorpark-ca-quest-co/Counselor-Moorpark-CA?fbclid=IwAR3Om-p6MfPJCWvhZLS1eNlbbQsYYH4q4dAlsHfqhy7Iuw-zqFp4uRir6c4"
+                >Google Site</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://questcounselinggroup.weebly.com/?fbclid=IwAR2uMjzSYpyDGC-0i8kSMnzpTLsx3ppyS9bae7YnsY4JoTX2dfl6LvYptP0"
+                >About</a
+              >
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Useful Links</h2>
+          <ul>
+            <li><a href="https://questcounselor.com/">Main</a></li>
+            <li><a href="https://goo.gl/maps/ZSwyLMCwKSL5twSn8">Maps</a></li>
+            <li><a href="./media.html">Media</a></li>
+            <li>
+              <a
+                href="https://sites.google.com/view/counselor-moorpark-ca-quest-co/Counselor-Moorpark-CA?authuser=0"
+                >Counselor Moorpark</a
+              >
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
